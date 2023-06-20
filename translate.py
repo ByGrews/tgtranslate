@@ -74,8 +74,8 @@ def check_language(update,context):
       context.bot.send_message(chat_id = update.effective_chat.id, text = send_message)
 
 def main():
-  bot = telegram.Bot(token=<token>)
-  updater = Updater(token=<token>, use_context = True)
+  bot = telegram.Bot(token=6049611555:AAEuVjwUE1oLAjd_z9xwenpWkYPCw9zDCmk)
+  updater = Updater(token=6049611555:AAEuVjwUE1oLAjd_z9xwenpWkYPCw9zDCmk, use_context = True)
   dispatcher = updater.dispatcher
   print('bot started')
   dispatcher.add_handler(CommandHandler("start", start, pass_args = True))
